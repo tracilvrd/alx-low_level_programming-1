@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-  /* Print the required text using printf function */
-   printf("with proper grammar, but the outcome is a piece of art,\n");
+        /* Print the required text using printf function */
+        printf("with proper grammar, but the outcome is a piece of art,\n");
 
-   return (0);
+        return (0);
 }
 
