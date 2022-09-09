@@ -11,16 +11,14 @@ int main(void)
 
 	while (c <= 122)
         {
-	  	putchar(c);
-		c++;
-	}
-
-	c = 65;
-
-	while (c <= 90)
-	{
-	  	putchar(c);
-		c++;
+	  	if (c == 113 || c == 101)
+		{
+		  	c++;
+		}else
+		{
+	  		putchar(c);
+			c++;
+		}
 	}
 	putchar(0xA);
 	return (0);
