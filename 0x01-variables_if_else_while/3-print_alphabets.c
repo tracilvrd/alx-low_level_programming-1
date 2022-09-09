@@ -22,7 +22,7 @@ int main(void)
 
 		c++;
 
-    	}
+	}
 	putchar(0xA);
 	return (0);
 }
