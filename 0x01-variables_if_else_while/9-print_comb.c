@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-  	int num = 48;
+	int num = 48;
 
 	for (; num <= 57; num++)
 	{
-	  	putchar(num);
+		putchar(num);
 		if (num != 57)
 		{
-		  	putchar(44);
+			putchar(44);
 			putchar(32);
 		}else
-		  	break;
+			break;
 	}
 	putchar(10);
 	return (0);
