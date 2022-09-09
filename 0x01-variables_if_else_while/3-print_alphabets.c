@@ -5,9 +5,9 @@
  * Return: 0 if successful. Non-zero otherwise
  */
 int main(void)
-{  
+{
 	int c = 97;
-	
+
 	while (c <= 122)
 	{
 		putchar(c);
@@ -18,11 +18,11 @@ int main(void)
 
 	while (c <= 90)
 	{
-       		putchar(c);
-		
-      		c++;
+		putchar(c);
+
+		c++;
 
     	}
 	putchar(0xA);
-	return (0); 
+	return (0);
 }
