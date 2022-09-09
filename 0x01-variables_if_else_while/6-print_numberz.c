@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-  	int i = 0x30;
+	int i = 0x30;
 
 	for (; i <= 0x39; i++)
 	{
-	 	 putchar(i);
+		putchar(i);
 	}
 	putchar(0xA);
 	return (0x0);
