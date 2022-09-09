@@ -1,25 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Program entry point. Prints alphabets in lowercase excluding q and e
+ * main - Program entry point. Prints 0 to 9
  *
  * Return: 0 if successful. Non-zero otherwise
  */
 int main(void)
 {
-  	int c = 97;
+	int i = 0;
 
-	while (c <= 122)
+	for (; i < 10; i++)
 	{
-	  	if (c == 113 || c == 101)
-		{
-		  	c++;
-		}else
-		{
-		  	putchar(c);
-		  	c++;
-		}
+		printf("%d", i);
 	}
-	putchar(0xA);
+	putchar(012);
 	return (0);
 }
