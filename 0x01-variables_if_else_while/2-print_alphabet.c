@@ -17,5 +17,3 @@ int main(void)
 	putchar(0xA);
 	return (0);
 }
-
-		
