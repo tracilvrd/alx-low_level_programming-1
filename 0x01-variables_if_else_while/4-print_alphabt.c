@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - PRogram entry point. Prints alphabets in lower and then upper case
+ * main - Program entry point. Prints alphabets in lowercase excluding q and e
  *
  * Return: 0 if successful. Non-zero otherwise
  */
