@@ -14,7 +14,7 @@ int main(void)
 		if (c == 113 || c == 101)
 		{
 			c++;
-		}else
+		} else
 		{
 			putchar(c);
 			c++;
