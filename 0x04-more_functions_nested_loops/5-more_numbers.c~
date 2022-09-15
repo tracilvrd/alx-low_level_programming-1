@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ * more_numbers - Prints numbers 0 through to 14.
+ *
+ * Return: None.
+ */
+void more_numbers(void)
+{
+	char count = 0;
+
+	while (count < 10)
+	{
