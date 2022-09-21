@@ -1,0 +1,14 @@
+#include "stdio.h"
+
+/**
+ * _strcmp - compares two strings for equality.
+ *
+ * @s1: Pointer to first string for comparison.
+ * @s2: Pointer to second string for comparison.
+ *
+ * Return: the magnitude of difference between individual characters compared.
+ */
+int _strcmp(char *s1, char *s2)
+{
+	int i = 0;
+	

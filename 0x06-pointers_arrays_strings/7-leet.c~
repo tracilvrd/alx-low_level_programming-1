@@ -1,0 +1,8 @@
+#include "main.h"
+
+/**
+ * leet - Encodes a string to leet(1337) code.
+ * @str: Pointer to string to be encoded.
+ *
+ * Return: Pointer to resulting string.
+ */
