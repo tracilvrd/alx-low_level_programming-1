@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		{
 			if (str[t - 1] == sep[i])
 			{
- 				if (str[t] >= 97 && str[t] <= 122)
+				if (str[t] >= 97 && str[t] <= 122)
 					str[t] -= 32;
 			}
 
