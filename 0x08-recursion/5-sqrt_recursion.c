@@ -12,7 +12,7 @@ int recursion_sqrt(int i, int n)
 		return (i);
 	else if (n < i * i)
 		return (-1);
-	
+
 	/* This return ensures that this function has a return value.*/
 	return (recursion_sqrt(i + 1, n));
 }
