@@ -32,7 +32,7 @@ int **alloc_grid(int width, int height)
 			/* Current malloc failed, no need to free null ptr. */
 			while (i--)
 				free(arr[i]);
-			
+
 			free(arr);
 			return (NULL);
 		}
