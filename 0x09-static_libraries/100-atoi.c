@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _atoi - Converts a string to an integer.
@@ -8,6 +8,6 @@ include "main.h"
  */
 int _atoi(char *s)
 {
-  (void) s;
+	(void) s;
 	return (0); 
 }
