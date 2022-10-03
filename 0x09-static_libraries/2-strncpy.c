@@ -11,7 +11,7 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
+	int  i;
 
 	for (i = 0; i < n && src[i] != '\0'; i++)/* Copy until n bytes are copied */
 		dest[i] = src[i];/* or end of string is reached. */

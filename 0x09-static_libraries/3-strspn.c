@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 		if (s[0] == accept[i])
 		{
 			/* Move s pointer, increase count, reset i */
-		  	s++;
+			s++;
 			count++;
 			i = -1;
 		}
