@@ -9,6 +9,17 @@
 #include <stdarg.h>
 
 /**
+ * struct print - print type with corresponding print function
+ * @t: print type
+ * @f: print function
+ */
+typedef struct print
+{
+	char *t;
+	void (*f)(va_list);
+} print_t;
+
+/**
  * main - Program entry point.
  *
  * Return: Always 0.
